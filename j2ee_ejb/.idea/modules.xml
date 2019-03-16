@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ejb_client/ejb_client.iml" filepath="$PROJECT_DIR$/ejb_client/ejb_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb_server/ejb_server.iml" filepath="$PROJECT_DIR$/ejb_server/ejb_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2ee_ejb.iml" filepath="$PROJECT_DIR$/j2ee_ejb.iml" />
+    </modules>
+  </component>
+</project>
