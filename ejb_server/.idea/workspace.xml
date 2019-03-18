@@ -6,7 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="942b2db2-4755-4d13-8f21-70ec4d2873b1" name="Default Changelist" comment="" />
+    <list default="true" id="942b2db2-4755-4d13-8f21-70ec4d2873b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ejb/sessionbean/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ejb_server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejb/entity/AddressEntityBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejb/entity/AddressEntityBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejb/entity/PersonEntityBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejb/entity/PersonEntityBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejb/sessionbean/AddressBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBeanRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejb/sessionbean/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejb/sessionbean/PersonBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBeanRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejb/sessionbean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejb/test/Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejb/test/Junit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../j2ee_ejb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../j2ee_ejb/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBeanRemote.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="216">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,10 +46,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBean.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/AddressBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="18">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,22 +58,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ejb/test/Junit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="253">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/PersonBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,83 +84,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ejb/entity/AddressEntityBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+            <state relative-caret-position="100">
+              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1316#1317#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1604#1605#0" expanded="true" />
-                <element signature="e#1637#1638#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-                <element signature="e#1736#1737#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBeanRemote.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="217">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#358#359#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ejb/entity/PersonEntityBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+            <state relative-caret-position="118">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
                 <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1368#1369#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,6 +129,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -172,13 +142,20 @@
         <option value="$PROJECT_DIR$/src/com/ejb/entity/AdressEntity.java" />
         <option value="$PROJECT_DIR$/src/com/ejb/entity/AdressBean.java" />
         <option value="$PROJECT_DIR$/src/com/ejb/entity/PersonBean.java" />
-        <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBeanRemote.java" />
-        <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBeanRemote.java" />
         <option value="$PROJECT_DIR$/src/com/ejb/test/Junit.java" />
+        <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBeanRemote.java" />
         <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBean.java" />
+        <option value="$PROJECT_DIR$/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/com/ejb/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBeanRemote.java" />
         <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBean.java" />
-        <option value="$PROJECT_DIR$/src/com/ejb/entity/PersonEntityBean.java" />
+        <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/PersonBean.java" />
+        <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/AddressBean.java" />
+        <option value="$PROJECT_DIR$/src/com/ejb/sessionbean/Address.java" />
         <option value="$PROJECT_DIR$/src/com/ejb/entity/AddressEntityBean.java" />
+        <option value="$PROJECT_DIR$/src/com/ejb/entity/PersonEntityBean.java" />
       </list>
     </option>
   </component>
@@ -197,11 +174,15 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,11 +190,42 @@
               <item name="ejb_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="ejb_server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ejb_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ejb_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ejb_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ejb_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ejb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ejb_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ejb_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ejb_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ejb_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="sessionbean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ejb_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ejb_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -224,14 +236,19 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552643986071" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552888827473" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IoT_Projects/IntelliJ/Fire_Fighting" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32760596" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,7 +262,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JBoss Server.JBoss 8.0.0.Final">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejb.sessionbean.Main" />
+      <module name="ejb_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejb.sessionbean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JBoss 5.3.0.GA_SOA" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 5.3.0.GA_SOA" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -390,7 +420,11 @@
     </configuration>
     <configuration name="JBoss 8.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 8.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="ejb_server:ejb exploded">
+          <settings />
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="SERVER" />
         <option name="BINDING_SET_NAME" value="" />
@@ -450,14 +484,16 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ejb_server:ejb exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="Junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ejb_server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ejb.test.*" />
+          <option name="PATTERN" value="com.ejb.sessionbean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -468,15 +504,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Junit.MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ejb_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejb.sessionbean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ejb.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ejb.test.Junit" />
+      <option name="METHOD_NAME" value="MyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JBoss Server.JBoss 7.1.1.Final" />
       <item itemvalue="JBoss Server.JBoss 8.0.0.Final" />
       <item itemvalue="JBoss Server.JBoss 5.3.0.GA_SOA" />
       <item itemvalue="JUnit.Junit" />
+      <item itemvalue="JUnit.Junit.MyTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.Junit" />
+        <item itemvalue="JUnit.Junit.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -499,6 +555,7 @@
       <workItem from="1552298637188" duration="304000" />
       <workItem from="1552628131137" duration="1695000" />
       <workItem from="1552629959635" duration="12394000" />
+      <workItem from="1552711096896" duration="10023000" />
     </task>
     <servers />
   </component>
@@ -506,15 +563,37 @@
     <history-entry file="Junit - 2019.03.15 at 15h 36m 31s.xml">
       <configuration name="Junit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Junit_MyTest - 2019.03.18 at 12h 37m 07s.xml">
+      <configuration name="Junit.MyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit - 2019.03.18 at 12h 37m 52s.xml">
+      <configuration name="Junit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit - 2019.03.18 at 13h 23m 51s.xml">
+      <configuration name="Junit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit_MyTest - 2019.03.18 at 13h 39m 12s.xml">
+      <configuration name="Junit.MyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit - 2019.03.18 at 13h 39m 25s.xml">
+      <configuration name="Junit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit_MyTest - 2019.03.18 at 13h 57m 02s.xml">
+      <configuration name="Junit.MyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit - 2019.03.18 at 13h 57m 11s.xml">
+      <configuration name="Junit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20072000" />
+    <option name="totallyTimeSpent" value="30095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994698" visible="true" weight="0.27564102" />
+      <window_info id="Persistence" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994698" visible="true" weight="0.27884614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -524,9 +603,9 @@
       <window_info id="Learn" order="7" />
       <window_info id="EJB" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.84941673" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.6517572" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -559,128 +638,92 @@
     <entry file="file://$PROJECT_DIR$/test_server/test_server.iml" />
     <entry file="file://$PROJECT_DIR$/test_server/src/service/Hello.java" />
     <entry file="file://$PROJECT_DIR$/test_server/src/service/HelloBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/main.java" />
+    <entry file="file://$PROJECT_DIR$/ejb_server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBeanRemote.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBean.java">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/AddressBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/PersonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ejb/test/Junit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ejb/entity/AddressEntityBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+        <state relative-caret-position="100">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ejb/entity/PersonEntityBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        <state relative-caret-position="118">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
             <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/PersonSessionBeanRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ejb/sessionbean/AddressSessionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ejb/test/Junit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -704,7 +747,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>EJB (ejb_server)|EJB</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -739,7 +782,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ejb_server</last-edited>
+          <last-edited>JPA|ejb_server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

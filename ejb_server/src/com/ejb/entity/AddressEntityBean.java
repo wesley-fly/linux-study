@@ -11,6 +11,7 @@ import java.sql.Timestamp;
  * Time: 1:37 PM
  */
 @Entity
+@Table(name = "address")
 public class AddressEntityBean implements Serializable {
     private static final long serialVersionUID = -4847068756495990191L;
     @Id

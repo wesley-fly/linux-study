@@ -1,6 +1,6 @@
 package com.ejb.test;
 
-import com.ejb.sessionbean.PersonSessionBeanRemote;
+import com.ejb.sessionbean.Person;
 import org.junit.Test;
 
 import javax.ejb.EJB;
@@ -13,12 +13,12 @@ import javax.ejb.EJB;
  */
 public class Junit {
     @EJB
-    private static PersonSessionBeanRemote personSessionBeanRemote;
+    private static Person person;
 
     @Test
     public void MyTest() {
         System.out.println("Start Junit Test [MyTest] Start...");
-        personSessionBeanRemote.createPerson();
+        person.createPerson();
         System.out.println("Start Junit Test [MyTest] End...");
     }
 }

@@ -1,7 +1,7 @@
 package com.ejb.sessionbean;
 
+import javax.ejb.Local;
 import javax.ejb.Remote;
-import java.util.List;
 
 /**
  * Created by IntelliJ IDEA.
@@ -10,6 +10,6 @@ import java.util.List;
  * Time: 1:47 PM
  */
 @Remote
-public interface AddressSessionBeanRemote {
+public interface Address {
     void createAddress();
 }

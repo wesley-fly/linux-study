@@ -15,11 +15,12 @@ import java.sql.Timestamp;
  * Time: 2:34 PM
  */
 @Stateless
-public class PersonSessionBean implements PersonSessionBeanRemote {
+public class PersonBean implements Person {
     @PersistenceContext(unitName = "Transaction-ejb")
     EntityManager entityManager;
     @EJB
-    private AddressSessionBeanRemote addressSessionBeanRemote;
+    private Address address;
+
     @Override
     public void createPerson() {
         PersonEntityBean personEntityBean = new PersonEntityBean();
@@ -31,7 +32,7 @@ public class PersonSessionBean implements PersonSessionBeanRemote {
         personEntityBean.setCreateTime(new Timestamp(System.currentTimeMillis()));
 
         entityManager.persist(personEntityBean);
-        addressSessionBeanRemote.createAddress();
+        address.createAddress();
 
         System.out.println("-----------Person EJB execute completely!-----------------");
     }
